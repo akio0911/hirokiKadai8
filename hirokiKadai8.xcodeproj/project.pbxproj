@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		FEB8D36E279ED8F90020D1E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB8D36D279ED8F90020D1E9 /* AppDelegate.swift */; };
 		FEB8D370279ED8F90020D1E9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB8D36F279ED8F90020D1E9 /* SceneDelegate.swift */; };
-		FEB8D372279ED8F90020D1E9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB8D371279ED8F90020D1E9 /* ViewController.swift */; };
 		FEB8D375279ED8F90020D1E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEB8D373279ED8F90020D1E9 /* Main.storyboard */; };
 		FEB8D377279ED8FA0020D1E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEB8D376279ED8FA0020D1E9 /* Assets.xcassets */; };
 		FEB8D37A279ED8FA0020D1E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEB8D378279ED8FA0020D1E9 /* LaunchScreen.storyboard */; };
+		FEB8D388279EE1590020D1E9 /* OrangeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB8D387279EE1590020D1E9 /* OrangeViewController.swift */; };
+		FEB8D38A279EE1620020D1E9 /* GreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB8D389279EE1620020D1E9 /* GreenViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FEB8D36A279ED8F90020D1E9 /* hirokiKadai8.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hirokiKadai8.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEB8D36D279ED8F90020D1E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FEB8D36F279ED8F90020D1E9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FEB8D371279ED8F90020D1E9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FEB8D374279ED8F90020D1E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FEB8D376279ED8FA0020D1E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FEB8D379279ED8FA0020D1E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FEB8D37B279ED8FA0020D1E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEB8D387279EE1590020D1E9 /* OrangeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrangeViewController.swift; sourceTree = "<group>"; };
+		FEB8D389279EE1620020D1E9 /* GreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +60,9 @@
 			children = (
 				FEB8D36D279ED8F90020D1E9 /* AppDelegate.swift */,
 				FEB8D36F279ED8F90020D1E9 /* SceneDelegate.swift */,
-				FEB8D371279ED8F90020D1E9 /* ViewController.swift */,
 				FEB8D373279ED8F90020D1E9 /* Main.storyboard */,
+				FEB8D387279EE1590020D1E9 /* OrangeViewController.swift */,
+				FEB8D389279EE1620020D1E9 /* GreenViewController.swift */,
 				FEB8D376279ED8FA0020D1E9 /* Assets.xcassets */,
 				FEB8D378279ED8FA0020D1E9 /* LaunchScreen.storyboard */,
 				FEB8D37B279ED8FA0020D1E9 /* Info.plist */,
@@ -138,9 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FEB8D372279ED8F90020D1E9 /* ViewController.swift in Sources */,
+				FEB8D38A279EE1620020D1E9 /* GreenViewController.swift in Sources */,
 				FEB8D36E279ED8F90020D1E9 /* AppDelegate.swift in Sources */,
 				FEB8D370279ED8F90020D1E9 /* SceneDelegate.swift in Sources */,
+				FEB8D388279EE1590020D1E9 /* OrangeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
